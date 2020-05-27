@@ -1,0 +1,234 @@
+
+body{
+	padding: 0;
+	background: #CCCCCC;
+	margin:0;
+font-family: 'Ubuntu Condensed', sans-serif;
+}
+header{
+	background: linear-gradient(transparent 2.33%, white 0, #d1e231 40.66%);
+	padding: 3px 0;
+}
+h1 {
+	margin:1%;
+	margin-left:50px;
+	text-align:left;
+	color: #666666;
+	font-size:40px;
+	text-shadow: 1px 1px 2px black, 0 0 1em white;
+	letter-spacing:2px;
+	word-spacing:7px;
+border-bottom: 2px solid #CCCCCC;
+text-transform:uppercase;
+font-style:italic;
+}
+h2 {
+	text-align:center;
+	font-size:40px;
+	color: #666666;
+	text-shadow: 1px 1px 2px black, 0 0 1em white;
+	letter-spacing:2px;
+}
+h3 {
+	font-size:30px;
+	text-align:center;
+	padding: 20px 0;
+}
+img{
+	border: 2px solid #CCCCCC;
+	max-width: 400px;
+		width:80%;
+		border-radius: 5px;
+}
+.mytable{
+	border:5px;
+	width:400px;
+	margin:auto;
+		font-size:25px;
+	max-width: 800px;
+	border-collapse:collapse;
+}
+.mytable1{
+	border:5px;
+	width:400px;
+		margin:auto;
+		font-size:25px;
+	max-width: 800px;
+	border-collapse:collapse;
+}
+.mytable-header{
+	background:#FFFFCC;
+}
+.tabcontacts{
+	margin:auto;
+		border-collapse:collapse;
+			border:5px;
+			font-size:25px;
+					margin-bottom:30px;
+}
+.tababout{
+	margin:auto;
+		border-collapse:collapse;
+			border:5px;
+			font-size:25px;
+					margin-bottom:30px;
+}
+.tabskill{
+		margin:auto;
+		border-collapse:collapse;
+			border:5px;
+			font-size:25px;
+}
+footer{
+background: #d1e231;
+	text-align:center;
+		padding: 10px 0;
+		margin-bottom:none;
+}
+.line {
+	font-size:30px;
+	width:90%;
+	max-width: 900px;
+	margin: 10px 20px;
+	overflow:hidden;
+    border-top: 2px solid black; 
+border-bottom: 1px solid black;
+    padding: 5px;
+    text-align: justify-all; 
+   }
+   a:hover{
+text-decoration: none;
+color: #b5c429;
+text-shadow: 1px 1px 2px black, 0 0 1em white;
+   }
+   tr:hover{
+   	background:#ebebeb;
+   }
+      td:hover{
+   	background:#CCCCCC;
+   }
+   h1:hover{
+   	color:#333333;
+   }
+   a{
+   	font-size: 30px;
+   	color:white;
+   }
+  .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.phon{
+	max-width: 1155px;
+	margin:auto;
+	padding: 50px 30px 64px;
+	background-color: #fff;
+}
+    .test {
+    margin: auto;
+    padding: 30px;
+    float:left;
+    margin-left: 55px;
+    max-width: 300px;
+     	border-radius: 20px;
+}
+   .test1 {
+    margin: auto;
+    float:left;
+    font-size:25px;
+       text-align: justify; 
+        	max-width:700px;
+        	     	border-radius: 20px;
+        	     	margin-top:20px;
+        	     	padding-bottom: 30px;
+}
+
+    .test2 {
+    margin: 5px;
+    padding: 10px;
+    background-color:white;
+    float:left;
+    margin-left: 10px;
+    max-width: 600px;
+     	border-radius: 10px;
+     	font-size:10px;
+}
+.alledu{
+	max-width: 1150px;
+	display:block;
+    padding-top: : 10px;
+     background-color:white;
+     margin:auto;
+}
+.divedu{
+    padding-top: : 10px;
+    float:left;
+    margin-left: 8%;
+    max-width: 600px;
+     	border-radius: 20px;
+}
+.divedu1{
+    padding-top: : 10px;
+    float:left;
+        margin-left: 8%;
+    max-width: 600px;
+     	padding-bottom: 30px;
+}
+a {
+	text-decoration: none; 
+	display:block;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: #f6ffdb;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color 0.5s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #000000;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #000000;
+  transition: .5s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+ 
