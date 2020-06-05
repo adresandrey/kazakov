@@ -5,6 +5,17 @@ body{
 	margin:0;
 font-family: 'Ubuntu Condensed', sans-serif;
 }
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 header{
 	background: linear-gradient(transparent 2.33%, white 0, #d1e231 40.66%);
 	padding: 5px 0;
@@ -36,7 +47,6 @@ h3 {
 }
 img{
 	border: 2px solid #CCCCCC;
-	max-width: 400px;
 		width:80%;
 		border-radius: 5px;
 }
@@ -85,6 +95,7 @@ background: #d1e231;
 	text-align:center;
 		padding: 10px 0;
 		margin-bottom:none;
+    margin-top:5%;
 }
 .line {
 	font-size:30px;
@@ -129,6 +140,8 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
 	margin:auto;
 	padding: 50px 30px 64px;
 	background-color: #fff;
+  margin-top:1%;
+  min-height: 400px;
 }
 .allrez{
   max-width: 900px;
@@ -139,7 +152,7 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
     .test {
   margin:1%;
     float:left;
-    margin-left: 100px;
+    margin-left: 15%;
     max-width: 300px;
      	border-radius: 20px;
 }
@@ -152,7 +165,6 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
         	     	margin-top:20px;
         	     	padding-bottom: 30px;
 }
-
     .test2 {
   margin:10px;
     padding: 10px;
@@ -168,6 +180,7 @@ text-shadow: 1px 1px 2px black, 0 0 1em white;
     padding-top: : 10px;
      background-color:white;
      margin:auto;
+     margin-top:1%;
 }
 .divedu{
     padding-top: : 10px;
